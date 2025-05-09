@@ -8,6 +8,7 @@ body {
    
    
    
+   
 }
 
 .creator-link {
@@ -138,7 +139,7 @@ top-banner span {
         
     }
 
-   
+  
 
    .overlay-mobile {
     position: absolute;
@@ -575,7 +576,7 @@ header video {
 
 @media  (max-width:768px) {
     .text-box {
-        margin-top: 24%;
+        margin-top: 13%;
     }
 
 
@@ -743,6 +744,31 @@ header video {
 }
 
 
+
+@media (max-width: 600px) {
+
+.footer-container {
+    flex-direction:row;
+    align-items:center;
+    text-align: center;
+}
+
+.footer-socials {
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+
+.footer {
+  margin-bottom: 20px;
+
+}
+
+.footer-column {
+    flex-wrap: wrap;
+}
+
+}
 
 
 /* Footer */
@@ -1209,7 +1235,8 @@ img {
 
 .contact-form button {
     width: 105%;
-    padding: 12px 50px;
+    padding: 15px 50px;
+    margin-left: 10px;
     background-color: #ff0000;
     color: #fff;
     border: none;
@@ -1222,6 +1249,7 @@ img {
 .contact-form button:hover {
     background-color: #a50707;
 }
+
 
 
 .google-maps {
