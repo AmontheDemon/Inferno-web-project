@@ -100,6 +100,7 @@ top-banner span {
 }
 
 
+
 .banner-contact {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -158,6 +159,43 @@ top-banner span {
 
 
 }
+
+
+@media only screen and (max-width:430px) {
+
+    .desktop-video {
+        display: none;
+    }
+
+    .mobile-image {
+        display: block;
+        width: 90%;
+        height:auto;
+        margin-left: 45px;
+        margin-top: 30px;
+        
+    }
+
+   
+
+   .overlay-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+}
+
+
 
 
 
@@ -529,7 +567,7 @@ header video {
 .text-box {
     position: absolute;
     top: 50%;
-    margin-top: 40%;
+    margin-top: 30%;
     left: 10%;
     color: white;
     font-size: 2rem;
@@ -537,7 +575,7 @@ header video {
 
 @media  (max-width:768px) {
     .text-box {
-        margin-top: 35%;
+        margin-top: 18%;
     }
 
 
