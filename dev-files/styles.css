@@ -508,7 +508,14 @@ top-banner span {
     
 
 
+@media screen and (max-width:768px) {
 
+    .group-photo {
+        position:relative;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+}
     
 
 
