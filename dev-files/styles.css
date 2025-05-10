@@ -587,7 +587,6 @@ header video {
 
 
 
-
 .cta-button {
     padding: 10px 20px;
     background: #ff0800;
@@ -1139,8 +1138,9 @@ img {
 
 
 .kids .image img {
-    width: 100%;
-    max-width: 500px;
+    
+    max-width: 100%;
+    height: auto;
     border-radius: 12px;
   
 }
@@ -1185,7 +1185,22 @@ img {
 }
 
 
+@media screen and (max-width:768px) {
+    .kids {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
 
+    .kids .image {
+        margin-top: 20px;
+
+    }
+
+    .kids .btn {
+        margin-top: 20px;
+    }
+}
 
 
 
@@ -1351,12 +1366,13 @@ img {
 
 .muay-thai-kb .image {
     flex: 1;
+   
 }
 
 
 .muay-thai-kb .image img {
-    width:100%;
-    max-width:500px;
+    max-width:100%;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -1399,6 +1415,30 @@ text-align: left;
 
 
 
+@media  screen and (max-width:768px) {
+    .muay-thai-kb {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    .muay-thai-kb .image{
+ 
+     margin-top: 20px;
+
+    }
+
+
+    .muay-thai-kb .btn {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
 
   /* BJJ Class */
 
@@ -1418,8 +1458,8 @@ text-align: left;
 
 
 .bjj .image img {
-    width: 100%;
-    max-width: 500px;
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -1462,7 +1502,22 @@ text-align: left;
     background-color: #b30000;
 }
 
+@media screen and (max-width:768px) {
+    .bjj {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
 
+
+    .bjj .image {
+        margin-top: 20px;
+    }
+
+    .bjj .btn {
+        margin-top: 20px;
+    }
+}
 
 
 
@@ -1484,8 +1539,8 @@ text-align: left;
 
 
 .mma .image img {
-    width: 100%;
-    max-width: 500px;
+    max-width: 60%;
+    height: auto;
     border-radius: 8px;
 }
 
@@ -1527,6 +1582,27 @@ text-align: left;
 .mma .btn:hover {
     background-color: #b30000;
 }
+
+
+
+@media screen and (max-width:768px) {
+    .mma {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mma .image {
+        margin-top: 20px;
+    }
+
+    .mma .btn {
+        margin-top: 20px;
+    }
+}
+
+
+
 
 
 
