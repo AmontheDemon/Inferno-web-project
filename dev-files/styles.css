@@ -576,7 +576,7 @@ header video {
 
 @media  (max-width:768px) {
     .text-box {
-        margin-top: 13%;
+        margin-top: 20%;
     }
 
 
@@ -745,10 +745,10 @@ header video {
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 430px) {
 
 .footer-container {
-    flex-direction:row;
+   flex-direction: row;
     align-items:center;
     text-align: center;
 }
@@ -781,6 +781,7 @@ footer {
 
 .footer-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1200px;
@@ -1236,7 +1237,7 @@ img {
 .contact-form button {
     width: 105%;
     padding: 15px 50px;
-    margin-left: 10px;
+    margin-left: 5px;
     background-color: #ff0000;
     color: #fff;
     border: none;
