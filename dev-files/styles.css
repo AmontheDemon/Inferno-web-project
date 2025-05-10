@@ -576,11 +576,14 @@ header video {
 
 @media  (max-width:768px) {
     .text-box {
-        margin-top: 20%;
+       font-size: 25px;
+        margin-top: 30%;
     }
 
 
 }
+
+
 
 
 
