@@ -703,6 +703,27 @@ header video {
 }
 
 
+@media (max-width: 768px) {
+    .inspire-container {
+        flex-direction: column;
+        align-items:baseline;
+        text-align:left;
+    }
+
+.inspire-text .section-image {
+
+    width: 50%;
+}
+
+.cta-button2 {
+    margin-top: 1rem;
+}
+
+}
+
+
+
+
 
 .cta-button2 {
 
