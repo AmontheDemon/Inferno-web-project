@@ -1,11 +1,15 @@
 /* General Styles */
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: #000;
     color: white;
-   
+   overflow-x: hidden;
    
    
    
@@ -203,6 +207,22 @@ top-banner span {
 
 
 /* Navbar */
+
+.Navbar header {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+
 .Navbar {
     margin-top: 40px;
     display: flex;
@@ -417,14 +437,19 @@ top-banner span {
 
 @media screen and (max-width: 768px) {
 
-.Navbar {
+ .Navbar {
    position:fixed !important;
    top: 10px;
    left: 0;
    width: 100%;
    z-index: 1000;
    transition: top 0.3s ease-in-out;
-}
+}  
+
+
+
+
+
 
 #Navbar {
     position: fixed;
@@ -470,7 +495,7 @@ top-banner span {
         justify-content: center;
         transition: right 0.3s ease-in-out;
         z-index: 1000;
-      }
+      }  
     
       .nav-links.show {
         right: 0;
@@ -1296,6 +1321,65 @@ img {
 .contact-form button:hover {
     background-color: #a50707;
 }
+
+@media (max-width: 768px) {
+    .contact-form {
+        width: 100%;
+        padding: 20px;
+        line-height: 1.6;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding: 12px;
+        line-height: 1.5;
+    }
+
+    .contact-form button {
+        font-size: 16px;
+        padding: 12px;
+        margin-top: 10px;
+    }
+
+    .contact-form label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .contact-info label {
+   display: block;
+   margin-bottom: 8px;
+   
+
+    }
+
+   
+
+  .contact-info {
+   
+   width:100%;
+   margin: 0 auto 20px auto;
+   text-align: center;
+   max-width: 300px;
+   position: relative;
+   z-index: 1;
+   
+    
+  }
+
+.contact-content {
+    display: block;
+    padding: 0 20px;
+   
+}
+
+
+
+}
+
 
 
 
